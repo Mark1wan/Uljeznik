@@ -12,7 +12,7 @@ What makes Uljeznik unique is its Dubrovnikan twist: the word lists draw from th
 
 ## How to play
 
-1. Open `Uljeznik_V156.html` in any browser — no installation needed.
+1. Open `Uljeznik_V0.56.html` in any browser — no installation needed.
 2. Enter the names of all players (3 minimum).
 3. Choose how many impostors there are.
 4. Pass the phone around — each player taps to privately see their hint.
@@ -29,8 +29,8 @@ What makes Uljeznik unique is its Dubrovnikan twist: the word lists draw from th
 
 ## Running the game
 
-Double-click `Uljeznik_V156.html` or drag it into a browser tab. That's it.
+Double-click `Uljeznik_V0.56.html` or drag it into a browser tab. That's it.
 
 ## Version
 
-Current build: **V156**
+Current build: **V0.56**
