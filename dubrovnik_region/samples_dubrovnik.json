@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "region": "dubrovnik",
+  "notes": "Dubrovnik region sample locations. Merge these into samples.json in the canonical pseudogenome_pool_v1. Organisms org_031-org_038 must be added first.",
+  "samples": {
+    "Vjetrenica_Cave": {
+      "description": "Subterranean karst cave community dominated by sulfur-oxidizing chemolithotrophs and oligotrophic specialists. Vjetrenica is one of the longest caves in the Dinaric karst, connected to the Popovo Polje floodplain near Dubrovnik.",
+      "organisms": {
+        "org_031": 0.30,
+        "org_032": 0.22,
+        "org_033": 0.15,
+        "org_001": 0.05,
+        "org_004": 0.04
+      },
+      "geo": {
+        "lat": 42.8972,
+        "lon": 17.9103,
+        "description": "Vjetrenica Cave, Zavala, Herzegovina"
+      },
+      "workshop": {
+        "recommended_for": ["Mission_Dubrovnik_01"],
+        "top_detectable_targets": [
+          "sulfur_oxidation_like",
+          "cave_stress_like",
+          "osmoprotection_like",
+          "efflux_pump_like",
+          "oxidative_stress_like"
+        ],
+        "notes": "High-impact sample. Students rarely expect chemolithotrophs — finding sulfur_oxidation_like here should prompt a 'why?' discussion about energy sources in dark environments."
+      }
+    },
+    "Lokrum_Coast": {
+      "description": "Rocky Mediterranean coastline of Lokrum Island, a nature reserve just off the Dubrovnik old town walls. Marine biofilm formers, bioluminescent Vibrio, and photoautotrophs dominate.",
+      "organisms": {
+        "org_034": 0.18,
+        "org_035": 0.14,
+        "org_038": 0.12,
+        "org_019": 0.10,
+        "org_021": 0.08
+      },
+      "geo": {
+        "lat": 42.6239,
+        "lon": 18.1248,
+        "description": "Lokrum Island, Dubrovnik archipelago"
+      },
+      "workshop": {
+        "recommended_for": ["Mission_Dubrovnik_01"],
+        "top_detectable_targets": [
+          "luciferase_like",
+          "osmoprotection_like",
+          "photosystem_marker_like",
+          "biofilm_regulator_like",
+          "efflux_pump_like"
+        ],
+        "notes": "Great sample for bioluminescence discussion. Lokrum is a protected reserve — no human pollution signal, making it a useful contrast to Old_Town_Harbor."
+      }
+    },
+    "Kolocep_Seagrass": {
+      "description": "Posidonia oceanica seagrass meadow sediment from around Kolocep (Calamota), the nearest of the Elaphiti Islands. Seagrass-associated decomposers and rhizosphere bacteria dominate.",
+      "organisms": {
+        "org_036": 0.24,
+        "org_034": 0.15,
+        "org_035": 0.10,
+        "org_019": 0.08,
+        "org_018": 0.06
+      },
+      "geo": {
+        "lat": 42.6581,
+        "lon": 18.0175,
+        "description": "Kolocep Island, Elaphiti Islands, Croatia"
+      },
+      "workshop": {
+        "recommended_for": ["Mission_Dubrovnik_01"],
+        "top_detectable_targets": [
+          "polysaccharide_utilization_like",
+          "glycoside_hydrolase_like",
+          "biofilm_regulator_like",
+          "osmoprotection_like",
+          "photosystem_marker_like"
+        ],
+        "notes": "Seagrass meadows are biodiversity hotspots and carbon sinks. polysaccharide_utilization_like and glycoside_hydrolase_like signal active decomposition of seagrass detritus."
+      }
+    },
+    "Adriatic_Open": {
+      "description": "Open oligotrophic Adriatic seawater sampled roughly 5 km offshore from Dubrovnik. Dominated by photoautotrophs and marine heterotrophs; low biomass, high diversity.",
+      "organisms": {
+        "org_034": 0.22,
+        "org_019": 0.15,
+        "org_020": 0.10,
+        "org_035": 0.08,
+        "org_037": 0.06
+      },
+      "geo": {
+        "lat": 42.6200,
+        "lon": 18.1800,
+        "description": "Open Adriatic, offshore Dubrovnik"
+      },
+      "workshop": {
+        "recommended_for": ["Mission_Dubrovnik_01"],
+        "top_detectable_targets": [
+          "photosystem_marker_like",
+          "osmoprotection_like",
+          "luciferase_like",
+          "nitrogen_fixation_marker_like",
+          "sulfur_oxidation_like"
+        ],
+        "notes": "Low-biomass open ocean environment. Contrast with Lokrum_Coast and Kolocep_Seagrass — fewer dominant organisms, so Ct values will be higher (weaker signal). Good for teaching signal interpretation."
+      }
+    },
+    "Old_Town_Harbor": {
+      "description": "Dubrovnik's historic Stara Luka harbor, influenced by boat traffic, tourists, and centuries of urban activity. Hydrocarbon degraders and biofilm specialists coexist with coastal marine taxa.",
+      "organisms": {
+        "org_005": 0.15,
+        "org_034": 0.13,
+        "org_027": 0.11,
+        "org_035": 0.09,
+        "org_016": 0.07,
+        "org_028": 0.06
+      },
+      "geo": {
+        "lat": 42.6403,
+        "lon": 18.1083,
+        "description": "Stara Luka (Old Harbour), Dubrovnik"
+      },
+      "workshop": {
+        "recommended_for": ["Mission_Dubrovnik_01"],
+        "top_detectable_targets": [
+          "alkane_monooxygenase_like",
+          "aromatic_ring_cleavage_like",
+          "biofilm_regulator_like",
+          "efflux_pump_like",
+          "luciferase_like",
+          "petase_like"
+        ],
+        "notes": "High-impact human-activity signal. Finding alkane_monooxygenase_like and aromatic_ring_cleavage_like here vs. their absence on Lokrum makes for a powerful lesson in how pollution shapes microbial communities."
+      }
+    }
+  }
+}

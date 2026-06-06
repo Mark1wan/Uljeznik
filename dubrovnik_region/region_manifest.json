@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "region_id": "dubrovnik",
+  "region_name": "Dubrovnik & Southern Dalmatia",
+  "contributor": "BioCraftEd",
+  "geo_bounds": {
+    "lat_min": 42.5,
+    "lat_max": 43.1,
+    "lon_min": 17.7,
+    "lon_max": 18.4
+  },
+  "map": {
+    "center_lat": 42.6507,
+    "center_lon": 18.0944,
+    "default_zoom": 11
+  },
+  "sample_sites": [
+    {
+      "id": "Vjetrenica_Cave",
+      "display_name": "Vjetrenica Cave",
+      "short_description": "Karst cave — chemolithotrophs, sulfur cycling",
+      "lat": 42.8972,
+      "lon": 17.9103,
+      "environment_type": "cave",
+      "icon": "cave"
+    },
+    {
+      "id": "Lokrum_Coast",
+      "display_name": "Lokrum Island Coast",
+      "short_description": "Protected Mediterranean rocky shore",
+      "lat": 42.6239,
+      "lon": 18.1248,
+      "environment_type": "coastal_marine",
+      "icon": "island"
+    },
+    {
+      "id": "Kolocep_Seagrass",
+      "display_name": "Kolocep Seagrass Meadow",
+      "short_description": "Posidonia oceanica rhizosphere, Elaphiti Islands",
+      "lat": 42.6581,
+      "lon": 18.0175,
+      "environment_type": "seagrass",
+      "icon": "seagrass"
+    },
+    {
+      "id": "Adriatic_Open",
+      "display_name": "Open Adriatic (Offshore)",
+      "short_description": "Oligotrophic open seawater",
+      "lat": 42.6200,
+      "lon": 18.1800,
+      "environment_type": "open_ocean",
+      "icon": "ocean"
+    },
+    {
+      "id": "Old_Town_Harbor",
+      "display_name": "Old Town Harbour (Stara Luka)",
+      "short_description": "Urban harbour — boat traffic, biofilm, hydrocarbons",
+      "lat": 42.6403,
+      "lon": 18.1083,
+      "environment_type": "urban_harbor",
+      "icon": "harbor"
+    }
+  ],
+  "new_organisms": ["org_031", "org_032", "org_033", "org_034", "org_035", "org_036", "org_037", "org_038"],
+  "new_feature_genes": ["sulfur_oxidation_like", "cave_stress_like"],
+  "files": {
+    "organisms": "organisms_dubrovnik.json",
+    "samples": "samples_dubrovnik.json",
+    "feature_genes": "feature_genes_dubrovnik.json"
+  },
+  "integration_steps": [
+    "1. Merge organisms_dubrovnik.json entries into pseudogenome_pool_v1/organisms.json",
+    "2. Merge feature_genes_dubrovnik.json gene entries into pseudogenome_pool_v1/feature_genes.json",
+    "3. Run generate_feature_genes.py to produce FASTA files for the two new genes",
+    "4. Add new org entries to generate_pseudogenomes.py feature_plan_v1() — assign sulfur_oxidation_like to org_031, org_032, org_037; cave_stress_like to org_031, org_032, org_033",
+    "5. Run generate_pseudogenomes.py to produce genomes/org_031 through org_038",
+    "6. Merge samples_dubrovnik.json entries into pseudogenome_pool_v1/samples.json"
+  ]
+}

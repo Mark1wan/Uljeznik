@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "region": "dubrovnik",
+  "notes": "New organisms for the Dubrovnik region pack. IDs start at org_031 to extend the canonical pseudogenome_pool_v1 pool. Add these entries to organisms.json and run generate_pseudogenomes.py to produce FASTA files.",
+  "organisms": [
+    {
+      "id": "org_031",
+      "name": "Sulfurimonas autotrophica (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.37,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["cave", "chemolithotroph", "sulfur_cycling"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "sulfur_oxidation_like",
+        "cave_stress_like",
+        "efflux_pump_like",
+        "oxidative_stress_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_031/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_031/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    },
+    {
+      "id": "org_032",
+      "name": "Candidatus Sulfuricurvum kujiense (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.31,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["cave", "chemolithotroph", "sulfur_cycling"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "sulfur_oxidation_like",
+        "cave_stress_like",
+        "oxidative_stress_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_032/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_032/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    },
+    {
+      "id": "org_033",
+      "name": "Halobacillus halophilus (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.42,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["cave", "halophile", "salt_tolerance"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "osmoprotection_like",
+        "heat_shock_like",
+        "cave_stress_like",
+        "efflux_pump_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_033/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_033/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    },
+    {
+      "id": "org_034",
+      "name": "Alteromonas macleodii (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.44,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["marine", "heterotroph", "nutrient_cycling"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "osmoprotection_like",
+        "efflux_pump_like",
+        "heat_shock_like",
+        "alkane_monooxygenase_like",
+        "aromatic_ring_cleavage_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_034/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_034/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    },
+    {
+      "id": "org_035",
+      "name": "Vibrio splendidus (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.45,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["marine", "coastal", "bioluminescence"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "luciferase_like",
+        "osmoprotection_like",
+        "biofilm_regulator_like",
+        "efflux_pump_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_035/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_035/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    },
+    {
+      "id": "org_036",
+      "name": "Poseidonibacter lekithochrous (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.37,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["seagrass", "marine", "plant_associated"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "polysaccharide_utilization_like",
+        "glycoside_hydrolase_like",
+        "efflux_pump_like",
+        "biofilm_regulator_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_036/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_036/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    },
+    {
+      "id": "org_037",
+      "name": "Rhodovulum sulfidophilum (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.64,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["marine", "phototroph", "sulfur_cycling"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "sulfur_oxidation_like",
+        "photosystem_marker_like",
+        "osmoprotection_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_037/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_037/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    },
+    {
+      "id": "org_038",
+      "name": "Thalassobacillus devorans (toy)",
+      "taxonomy": ["Bacteria", "UnknownPhylum"],
+      "gc": 0.41,
+      "genome_bp": null,
+      "pseudogenome_bp_target": 200000,
+      "roles": ["marine", "halotolerant", "coastal"],
+      "marker_genes": ["16S_rRNA_fragment_A"],
+      "feature_genes": [
+        "osmoprotection_like",
+        "efflux_pump_like",
+        "heat_shock_like",
+        "glycoside_hydrolase_like"
+      ],
+      "files": {
+        "pseudogenome_fasta": "genomes/org_038/pseudogenome.fasta",
+        "plasmids": [],
+        "pseudogenome_blank_fasta": "genomes/org_038/pseudogenome_blank.fasta"
+      },
+      "generator": {
+        "seed": 20260606,
+        "blank_bp": 200000
+      }
+    }
+  ]
+}

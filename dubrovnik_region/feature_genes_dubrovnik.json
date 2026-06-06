@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "region": "dubrovnik",
+  "notes": "New feature gene definitions for the Dubrovnik region. Merge these entries into the 'genes' block of feature_genes.json, then run generate_feature_genes.py to produce FASTA files. The 'sequence' field will be populated by the generator.",
+  "genes": {
+    "sulfur_oxidation_like": {
+      "type": "feature",
+      "category": "metabolism",
+      "label": "Sulfur oxidation enzyme complex (Sox-like)",
+      "description": "Sox pathway-like sulfur oxidation system. Enables chemolithotrophic growth using reduced sulfur compounds (H2S, thiosulfate) as the primary energy source instead of sunlight or organic carbon.",
+      "typical_length_bp": 900,
+      "gc_hint": 0.40,
+      "rarity_hint": "uncommon",
+      "recommended_copies_per_pool": [2, 4],
+      "pedagogy": "Reveals chemolithotrophic metabolism — organisms that extract energy from chemicals rather than sunlight or organic matter. Finding this in a cave is the 'aha' moment: life without sunlight.",
+      "notes": "Key marker for cave, hydrothermal vent, and anoxic sediment environments. In Vjetrenica Cave, reduced sulfur seeps in through karst groundwater.",
+      "search_terms": ["sox", "sulfur oxidation", "chemolithotroph", "thiosulfate"],
+      "sequence": ""
+    },
+    "cave_stress_like": {
+      "type": "feature",
+      "category": "stress_response",
+      "label": "Cave/oligotrophic stress adaptation cluster",
+      "description": "Gene cluster associated with survival in dark, cold, nutrient-starved subterranean environments. Encodes starvation survival proteins and low-energy-state regulators analogous to those found in cave-adapted bacteria.",
+      "typical_length_bp": 750,
+      "gc_hint": 0.38,
+      "rarity_hint": "uncommon",
+      "recommended_copies_per_pool": [2, 3],
+      "pedagogy": "Demonstrates evolutionary adaptation to extreme resource scarcity. Good contrast with heat_shock_like (thermal stress) — same survival imperative, completely different trigger.",
+      "notes": "Not a real named gene family — it is a synthetic teaching construct representing the broader category of oligotrophic stress response genes found in cave bacteria. Keep the pedagogy honest with students.",
+      "search_terms": ["starvation", "oligotrophic", "cave adaptation", "low nutrient"],
+      "sequence": ""
+    }
+  }
+}
